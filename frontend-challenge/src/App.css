@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--Pale-blue);
+}
+section {
+  height: 350px;
+  width: 600px;
+  display: flex;
+  background-color: var(--White);
+  border-radius: 30px;
+}
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+/* Parte purpura de la APP */
+.header-background {
+  border-radius: 30px;
+  width: 50%;
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsla(256, 72%, 46%));
+  color: var(--White);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header-background h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1cm;
+}
+.header-background p {
+  color: var(--Light-lavender);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0 40px;
+  text-align: center;
+}
+.header-title {
+  color: var(--Light-lavender);
+  font-weight: 500;
+}
+.header-circle p {
+  color: var(--Light-lavender);
+  font-weight: 500;
+}
+.header-circle span {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+.header-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--Light-royal-blue);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+/* parte blanca de la APP */
+
+.body-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.body-title {
+  text-align: left;
+  margin-left: 30px;
+}
+.category-container {
+  margin: 15px 30px;
+  padding: 8px 18px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.s0 {
+  background: hsla(0, 100%, 67%, 0.1);
+}
+.s1 {
+  background: hsla(39, 100%, 56%, 0.1);
+}
+.s2 {
+  background: hsla(166, 100%, 37%, 0.1);
+}
+.s3 {
+  background: hsla(256, 72%, 46%, 0.1);
+}
+
+.n0 {
+  color: var(--Light-red);
+}
+.n1 {
+  color: var(--Orangey-yellow);
+}
+.n2 {
+  color: var(--Green-teal);
+}
+.n3 {
+  color: var(--Violet-blue);
+}
+.category-container div {
+  display: flex;
+}
+.category-container div h1 {
+  margin-left: 15px;
+}
