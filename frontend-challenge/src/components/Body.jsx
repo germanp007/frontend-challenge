@@ -12,7 +12,14 @@ const Body = () => {
               <h1 className={`n${index}`}>{e.category}</h1>
             </div>
             <div>
-              <p>{e.score}/100</p>
+              <p style={{ color: "hsl(224, 30%, 27%)", fontWeight: "600" }}>
+                {e.score}/
+                <span
+                  style={{ color: "hsl(241, 100%, 89%)", fontWeight: "600" }}
+                >
+                  100
+                </span>
+              </p>
             </div>
           </div>
         ))}

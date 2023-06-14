@@ -36,7 +36,7 @@ section {
 .header-background {
   border-radius: 30px;
   width: 50%;
-  background: linear-gradient(to top, hsl(241, 81%, 54%), hsla(256, 72%, 46%));
+  background: hsla(256, 72%, 46%);
   color: var(--White);
   display: flex;
   flex-direction: column;
@@ -89,6 +89,7 @@ section {
 .body-title {
   text-align: left;
   margin-left: 30px;
+  color: hsl(224, 30%, 27%);
 }
 .category-container {
   margin: 15px 30px;
@@ -127,4 +128,32 @@ section {
 }
 .category-container div h1 {
   margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  main {
+    height: auto;
+  }
+  section {
+    position: relative;
+    margin-top: 0%;
+    height: 100vh;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0%;
+  }
+  .header-background {
+    width: 100%;
+    height: 300px;
+    border-radius: 0 0 30px 30px;
+  }
+  .body-container {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+  }
 }
