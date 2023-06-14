@@ -21,9 +21,11 @@ const Body = () => {
                 </span>
               </p>
             </div>
+            <div></div>
           </div>
         ))}
       </div>
+      <button>Continue</button>
     </div>
   );
 };
