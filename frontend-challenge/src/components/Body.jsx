@@ -21,7 +21,6 @@ const Body = () => {
                 </span>
               </p>
             </div>
-            <div></div>
           </div>
         ))}
       </div>
