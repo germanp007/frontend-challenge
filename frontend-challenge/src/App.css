@@ -10,6 +10,9 @@ main {
   place-items: center;
   background: var(--Pale-blue);
 }
+main > div {
+  background: var(--Pale-blue);
+}
 section {
   height: 350px;
   width: 600px;

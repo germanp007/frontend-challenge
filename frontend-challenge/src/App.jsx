@@ -8,6 +8,17 @@ const App = () => {
         <Header />
         <Body />
       </section>
+      <div>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a href="https://portfolio-frontdev.netlify.app" target="_blank">
+          German Pinto
+        </a>
+        .
+      </div>
     </main>
   );
 };
